@@ -10,8 +10,8 @@
 <body>
     <div class="container">
         <form action="" class="calc">
-            <input type="text" class="value">
-            <span class="num clear" onclick="view('C')" value="C"><i>C</i></span>
+            <input type="text" class="value" id="result">
+            <span class="num clear" onclick="clears()" value="C"><i>C</i></span>
             <span class="num" onclick="view('/')" value="/"><i>/</i></span>
             <span class="num" onclick="view('*')" value="*"><i>*</i></span>
             <span class="num" onclick="view('7')" value="7"><i>7</i></span>
@@ -28,7 +28,7 @@
             <span class="num" onclick="view('0')" value="0"><i>0</i></span>
             <span class="num" onclick="view('00')" value="00"><i>00</i></span>
             <span class="num" onclick="view('.')" value="."><i>.</i></span>
-            <span class="num equal" onclick="view('=')" value="="><i>=</i></span>
+            <span class="num equal" onclick="compute()" value="="><i>=</i></span>
         </form>
     </div>
 
