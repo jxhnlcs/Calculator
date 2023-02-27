@@ -1,5 +1,5 @@
 # Calculator
-Responsive calculator program
+A responsive calculator program
 
 Link to access: https://calculator-mu-wheat.vercel.app
 
